@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C3D58AD1DD6E72F0001E78C /* CycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D58AC1DD6E72F0001E78C /* CycleScrollView.swift */; };
+		2C3D58AF1DD7435E0001E78C /* FZSEJT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D58AE1DD7420C0001E78C /* FZSEJT.ttf */; };
+		2C3D58B11DD8A6BA0001E78C /* StayTunesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D58B01DD8A6BA0001E78C /* StayTunesVC.swift */; };
+		2C3D58B31DD8A8B50001E78C /* WebBrowserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D58B21DD8A8B50001E78C /* WebBrowserTest.swift */; };
+		2C6E00531D901BB200044342 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E00521D901BB200044342 /* FirstVC.swift */; };
+		2C6E005C1D901D1000044342 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E005B1D901D1000044342 /* GlobalConst.swift */; };
+		2C6EFEB91D8B887B00044342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEB81D8B887B00044342 /* AppDelegate.swift */; };
+		2C6EFEBB1D8B887B00044342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEBA1D8B887B00044342 /* ViewController.swift */; };
+		2C6EFEBE1D8B887B00044342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EFEBC1D8B887B00044342 /* Main.storyboard */; };
+		2C6EFEC01D8B887B00044342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EFEBF1D8B887B00044342 /* Assets.xcassets */; };
+		2C6EFEC31D8B887B00044342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EFEC11D8B887B00044342 /* LaunchScreen.storyboard */; };
+		2C6EFECE1D8B887B00044342 /* kindergartenappSwfitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFECD1D8B887B00044342 /* kindergartenappSwfitTests.swift */; };
+		2C6EFED91D8B887C00044342 /* kindergartenappSwfitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFED81D8B887C00044342 /* kindergartenappSwfitUITests.swift */; };
+		2C6EFEF41D8BED7100044342 /* BaseFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEF31D8BED7100044342 /* BaseFunc.swift */; };
+		2C6EFEF61D8BED9400044342 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEF51D8BED9400044342 /* BaseVC.swift */; };
+		2C6EFEF81D8BF85E00044342 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEF71D8BF85E00044342 /* UserInfo.swift */; };
+		2C6EFEFB1D8C043A00044342 /* ParentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEFA1D8C043A00044342 /* ParentInfo.swift */; };
+		2C6EFEFD1D8C07A700044342 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEFC1D8C07A700044342 /* Baby.swift */; };
+		2C6EFEFF1D8CCC4000044342 /* TeacherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFEFE1D8CCC4000044342 /* TeacherInfo.swift */; };
+		2C6EFF011D8CCC6000044342 /* Class_School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFF001D8CCC6000044342 /* Class_School.swift */; };
+		2C6EFF0A1D8D53D600044342 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EFF091D8D53D600044342 /* loading.gif */; };
+		2C6EFF111D8D6F2600044342 /* ZLCGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EFF101D8D6F2600044342 /* ZLCGuidePageView.m */; };
+		2C6EFF151D8D74C100044342 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6EFF141D8D74C100044342 /* MBProgressHUD.framework */; };
+		2C6EFF321D8D8BAE00044342 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6EFF311D8D8BAE00044342 /* Alamofire.framework */; };
+		2CCEC9D91D97F82D004FCFCB /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEC9D81D97F82D004FCFCB /* UIImage+Gif.swift */; };
+		359C8F8DB1052CCB6B07C90B /* Pods_kindergartenappSwfit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAF6406DC6D27AB29A80296 /* Pods_kindergartenappSwfit.framework */; };
+		680FB7B31D910DC80093DA38 /* UsrNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FB7B11D910DC80093DA38 /* UsrNameVC.swift */; };
+		680FB7B41D910DC80093DA38 /* UsrNameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680FB7B21D910DC80093DA38 /* UsrNameVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6EFECA1D8B887B00044342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6EFEAD1D8B887B00044342 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6EFEB41D8B887B00044342;
+			remoteInfo = kindergartenappSwfit;
+		};
+		2C6EFED51D8B887C00044342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6EFEAD1D8B887B00044342 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6EFEB41D8B887B00044342;
+			remoteInfo = kindergartenappSwfit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C6E003F1D8D8DA000044342 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6E00431D8D8DAA00044342 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C3D58AC1DD6E72F0001E78C /* CycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollView.swift; sourceTree = "<group>"; };
+		2C3D58AE1DD7420C0001E78C /* FZSEJT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZSEJT.ttf; sourceTree = "<group>"; };
+		2C3D58B01DD8A6BA0001E78C /* StayTunesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StayTunesVC.swift; path = View/StayTunesVC.swift; sourceTree = "<group>"; };
+		2C3D58B21DD8A8B50001E78C /* WebBrowserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebBrowserTest.swift; path = View/FirstVC/Controller/WebBrowserTest.swift; sourceTree = "<group>"; };
+		2C6E00521D901BB200044342 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstVC.swift; path = View/FirstVC/Controller/FirstVC.swift; sourceTree = "<group>"; };
+		2C6E005B1D901D1000044342 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalConst.swift; path = Common/Global/GlobalConst.swift; sourceTree = "<group>"; };
+		2C6EFEB51D8B887B00044342 /* kindergartenappSwfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kindergartenappSwfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6EFEB81D8B887B00044342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C6EFEBA1D8B887B00044342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C6EFEBD1D8B887B00044342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C6EFEBF1D8B887B00044342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6EFEC21D8B887B00044342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C6EFEC41D8B887B00044342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6EFEC91D8B887B00044342 /* kindergartenappSwfitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kindergartenappSwfitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6EFECD1D8B887B00044342 /* kindergartenappSwfitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kindergartenappSwfitTests.swift; sourceTree = "<group>"; };
+		2C6EFECF1D8B887C00044342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6EFED41D8B887C00044342 /* kindergartenappSwfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kindergartenappSwfitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6EFED81D8B887C00044342 /* kindergartenappSwfitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kindergartenappSwfitUITests.swift; sourceTree = "<group>"; };
+		2C6EFEDA1D8B887C00044342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6EFEF31D8BED7100044342 /* BaseFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseFunc.swift; path = Common/Base/BaseFunc.swift; sourceTree = "<group>"; };
+		2C6EFEF51D8BED9400044342 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseVC.swift; path = Common/Base/BaseVC.swift; sourceTree = "<group>"; };
+		2C6EFEF71D8BF85E00044342 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInfo.swift; path = Common/User/UserInfo.swift; sourceTree = "<group>"; };
+		2C6EFEFA1D8C043A00044342 /* ParentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentInfo.swift; path = Common/User/UserAddition/ParentInfo.swift; sourceTree = "<group>"; };
+		2C6EFEFC1D8C07A700044342 /* Baby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Baby.swift; path = Common/User/UserAddition/Baby.swift; sourceTree = "<group>"; };
+		2C6EFEFE1D8CCC4000044342 /* TeacherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeacherInfo.swift; path = Common/User/UserAddition/TeacherInfo.swift; sourceTree = "<group>"; };
+		2C6EFF001D8CCC6000044342 /* Class_School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Class_School.swift; path = Common/User/UserAddition/Class_School.swift; sourceTree = "<group>"; };
+		2C6EFF091D8D53D600044342 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		2C6EFF0B1D8D5EB900044342 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2C6EFF0C1D8D5EB900044342 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2C6EFF0E1D8D6F2500044342 /* kindergartenappSwfit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kindergartenappSwfit-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C6EFF0F1D8D6F2600044342 /* ZLCGuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLCGuidePageView.h; path = Common/GuidePage/ZLCGuidePageView.h; sourceTree = "<group>"; };
+		2C6EFF101D8D6F2600044342 /* ZLCGuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLCGuidePageView.m; path = Common/GuidePage/ZLCGuidePageView.m; sourceTree = "<group>"; };
+		2C6EFF121D8D74BE00044342 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		2C6EFF141D8D74C100044342 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "Pods/../build/Debug-iphoneos/MBProgressHUD.framework"; sourceTree = "<group>"; };
+		2C6EFF2F1D8D822900044342 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		2C6EFF311D8D8BAE00044342 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		2CCEC9D81D97F82D004FCFCB /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		680FB7B11D910DC80093DA38 /* UsrNameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsrNameVC.swift; path = Login/Modal/UsrNameVC.swift; sourceTree = "<group>"; };
+		680FB7B21D910DC80093DA38 /* UsrNameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UsrNameVC.xib; path = Login/Modal/UsrNameVC.xib; sourceTree = "<group>"; };
+		7708C02C123187F7654CA0EE /* Pods-kindergartenappSwfit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kindergartenappSwfit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kindergartenappSwfit/Pods-kindergartenappSwfit.debug.xcconfig"; sourceTree = "<group>"; };
+		7CAF6406DC6D27AB29A80296 /* Pods_kindergartenappSwfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kindergartenappSwfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C215FD3DF3300795FDD613 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4F4541BF2D62315E3B22C2 /* Pods-kindergartenappSwfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kindergartenappSwfit.release.xcconfig"; path = "Pods/Target Support Files/Pods-kindergartenappSwfit/Pods-kindergartenappSwfit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C6EFEB21D8B887B00044342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EFF321D8D8BAE00044342 /* Alamofire.framework in Frameworks */,
+				2C6EFF151D8D74C100044342 /* MBProgressHUD.framework in Frameworks */,
+				359C8F8DB1052CCB6B07C90B /* Pods_kindergartenappSwfit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EFEC61D8B887B00044342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EFED11D8B887C00044342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8E1CD01EE6B3E8D26484ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7708C02C123187F7654CA0EE /* Pods-kindergartenappSwfit.debug.xcconfig */,
+				9D4F4541BF2D62315E3B22C2 /* Pods-kindergartenappSwfit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C3D58AB1DD6E72F0001E78C /* CycleScroll */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D58AC1DD6E72F0001E78C /* CycleScrollView.swift */,
+			);
+			name = CycleScroll;
+			path = Common/CycleScroll;
+			sourceTree = "<group>";
+		};
+		2C6E00451D8ED81E00044342 /* GlobalConst */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E005B1D901D1000044342 /* GlobalConst.swift */,
+			);
+			name = GlobalConst;
+			sourceTree = "<group>";
+		};
+		2C6EFEAC1D8B887B00044342 = {
+			isa = PBXGroup;
+			children = (
+				2C6EFEB71D8B887B00044342 /* kindergartenappSwfit */,
+				2C6EFECC1D8B887B00044342 /* kindergartenappSwfitTests */,
+				2C6EFED71D8B887C00044342 /* kindergartenappSwfitUITests */,
+				2C6EFEB61D8B887B00044342 /* Products */,
+				CE06202E667A991F208B476D /* Frameworks */,
+				1D8E1CD01EE6B3E8D26484ED /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2C6EFEB61D8B887B00044342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFEB51D8B887B00044342 /* kindergartenappSwfit.app */,
+				2C6EFEC91D8B887B00044342 /* kindergartenappSwfitTests.xctest */,
+				2C6EFED41D8B887C00044342 /* kindergartenappSwfitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C6EFEB71D8B887B00044342 /* kindergartenappSwfit */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D58AE1DD7420C0001E78C /* FZSEJT.ttf */,
+				2C6EFF091D8D53D600044342 /* loading.gif */,
+				2C6EFF021D8D526700044342 /* View */,
+				2C6EFEF01D8BED4000044342 /* Common */,
+				2C6EFEE61D8B8E3600044342 /* Login */,
+				2C6EFEB81D8B887B00044342 /* AppDelegate.swift */,
+				2C6EFF0E1D8D6F2500044342 /* kindergartenappSwfit-Bridging-Header.h */,
+				2C6EFEBC1D8B887B00044342 /* Main.storyboard */,
+				2C6EFEBF1D8B887B00044342 /* Assets.xcassets */,
+				2C6EFEC11D8B887B00044342 /* LaunchScreen.storyboard */,
+				2C6EFEC41D8B887B00044342 /* Info.plist */,
+			);
+			path = kindergartenappSwfit;
+			sourceTree = "<group>";
+		};
+		2C6EFECC1D8B887B00044342 /* kindergartenappSwfitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFECD1D8B887B00044342 /* kindergartenappSwfitTests.swift */,
+				2C6EFECF1D8B887C00044342 /* Info.plist */,
+			);
+			path = kindergartenappSwfitTests;
+			sourceTree = "<group>";
+		};
+		2C6EFED71D8B887C00044342 /* kindergartenappSwfitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFED81D8B887C00044342 /* kindergartenappSwfitUITests.swift */,
+				2C6EFEDA1D8B887C00044342 /* Info.plist */,
+			);
+			path = kindergartenappSwfitUITests;
+			sourceTree = "<group>";
+		};
+		2C6EFEE61D8B8E3600044342 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFEE71D8B8FF800044342 /* Modal */,
+				2C6EFEBA1D8B887B00044342 /* ViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2C6EFEE71D8B8FF800044342 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				680FB7B11D910DC80093DA38 /* UsrNameVC.swift */,
+				680FB7B21D910DC80093DA38 /* UsrNameVC.xib */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		2C6EFEF01D8BED4000044342 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D58AB1DD6E72F0001E78C /* CycleScroll */,
+				2CCEC9D01D97F822004FCFCB /* GIF */,
+				2C6E00451D8ED81E00044342 /* GlobalConst */,
+				2C6EFF0D1D8D6ED500044342 /* GuidePage */,
+				2C6EFEF21D8BED4F00044342 /* User */,
+				2C6EFEF11D8BED4900044342 /* Base */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2C6EFEF11D8BED4900044342 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFEF31D8BED7100044342 /* BaseFunc.swift */,
+				2C6EFEF51D8BED9400044342 /* BaseVC.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2C6EFEF21D8BED4F00044342 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFEF91D8C03EC00044342 /* UserAddition */,
+				2C6EFEF71D8BF85E00044342 /* UserInfo.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		2C6EFEF91D8C03EC00044342 /* UserAddition */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFEFA1D8C043A00044342 /* ParentInfo.swift */,
+				2C6EFEFC1D8C07A700044342 /* Baby.swift */,
+				2C6EFEFE1D8CCC4000044342 /* TeacherInfo.swift */,
+				2C6EFF001D8CCC6000044342 /* Class_School.swift */,
+			);
+			name = UserAddition;
+			sourceTree = "<group>";
+		};
+		2C6EFF021D8D526700044342 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFF061D8D52C100044342 /* SettingVC */,
+				2C6EFF051D8D528400044342 /* ThirdVC */,
+				2C6EFF041D8D527D00044342 /* SeconVC */,
+				2C6EFF031D8D527300044342 /* FirstVC */,
+				2C3D58B01DD8A6BA0001E78C /* StayTunesVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2C6EFF031D8D527300044342 /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFF081D8D52ED00044342 /* View */,
+				2C6EFF071D8D52D000044342 /* Controller */,
+			);
+			name = FirstVC;
+			sourceTree = "<group>";
+		};
+		2C6EFF041D8D527D00044342 /* SeconVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SeconVC;
+			sourceTree = "<group>";
+		};
+		2C6EFF051D8D528400044342 /* ThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdVC;
+			sourceTree = "<group>";
+		};
+		2C6EFF061D8D52C100044342 /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SettingVC;
+			sourceTree = "<group>";
+		};
+		2C6EFF071D8D52D000044342 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C6E00521D901BB200044342 /* FirstVC.swift */,
+				2C3D58B21DD8A8B50001E78C /* WebBrowserTest.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2C6EFF081D8D52ED00044342 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2C6EFF0D1D8D6ED500044342 /* GuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFF0F1D8D6F2600044342 /* ZLCGuidePageView.h */,
+				2C6EFF101D8D6F2600044342 /* ZLCGuidePageView.m */,
+			);
+			name = GuidePage;
+			sourceTree = "<group>";
+		};
+		2CCEC9D01D97F822004FCFCB /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEC9D81D97F82D004FCFCB /* UIImage+Gif.swift */,
+			);
+			name = GIF;
+			sourceTree = "<group>";
+		};
+		CE06202E667A991F208B476D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EFF311D8D8BAE00044342 /* Alamofire.framework */,
+				2C6EFF2F1D8D822900044342 /* Alamofire.framework */,
+				2C6EFF141D8D74C100044342 /* MBProgressHUD.framework */,
+				2C6EFF121D8D74BE00044342 /* AFNetworking.framework */,
+				92C215FD3DF3300795FDD613 /* Pods.framework */,
+				7CAF6406DC6D27AB29A80296 /* Pods_kindergartenappSwfit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C6EFEB41D8B887B00044342 /* kindergartenappSwfit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6EFEDD1D8B887C00044342 /* Build configuration list for PBXNativeTarget "kindergartenappSwfit" */;
+			buildPhases = (
+				98ACD53D1AB9BCB44C522409 /* [CP] Check Pods Manifest.lock */,
+				2C6EFEB11D8B887B00044342 /* Sources */,
+				2C6EFEB21D8B887B00044342 /* Frameworks */,
+				2C6EFEB31D8B887B00044342 /* Resources */,
+				2C6E003F1D8D8DA000044342 /* Embed Frameworks */,
+				2C6E00431D8D8DAA00044342 /* Embed PlugIns */,
+				BD675E5E6714F7438208D991 /* [CP] Embed Pods Frameworks */,
+				79CAE5614391B0ABABA304C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kindergartenappSwfit;
+			productName = kindergartenappSwfit;
+			productReference = 2C6EFEB51D8B887B00044342 /* kindergartenappSwfit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C6EFEC81D8B887B00044342 /* kindergartenappSwfitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6EFEE01D8B887C00044342 /* Build configuration list for PBXNativeTarget "kindergartenappSwfitTests" */;
+			buildPhases = (
+				2C6EFEC51D8B887B00044342 /* Sources */,
+				2C6EFEC61D8B887B00044342 /* Frameworks */,
+				2C6EFEC71D8B887B00044342 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6EFECB1D8B887B00044342 /* PBXTargetDependency */,
+			);
+			name = kindergartenappSwfitTests;
+			productName = kindergartenappSwfitTests;
+			productReference = 2C6EFEC91D8B887B00044342 /* kindergartenappSwfitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C6EFED31D8B887C00044342 /* kindergartenappSwfitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6EFEE31D8B887C00044342 /* Build configuration list for PBXNativeTarget "kindergartenappSwfitUITests" */;
+			buildPhases = (
+				2C6EFED01D8B887C00044342 /* Sources */,
+				2C6EFED11D8B887C00044342 /* Frameworks */,
+				2C6EFED21D8B887C00044342 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6EFED61D8B887C00044342 /* PBXTargetDependency */,
+			);
+			name = kindergartenappSwfitUITests;
+			productName = kindergartenappSwfitUITests;
+			productReference = 2C6EFED41D8B887C00044342 /* kindergartenappSwfitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C6EFEAD1D8B887B00044342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "zr-mac";
+				TargetAttributes = {
+					2C6EFEB41D8B887B00044342 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					2C6EFEC81D8B887B00044342 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C6EFEB41D8B887B00044342;
+					};
+					2C6EFED31D8B887C00044342 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C6EFEB41D8B887B00044342;
+					};
+				};
+			};
+			buildConfigurationList = 2C6EFEB01D8B887B00044342 /* Build configuration list for PBXProject "kindergartenappSwfit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C6EFEAC1D8B887B00044342;
+			productRefGroup = 2C6EFEB61D8B887B00044342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C6EFEB41D8B887B00044342 /* kindergartenappSwfit */,
+				2C6EFEC81D8B887B00044342 /* kindergartenappSwfitTests */,
+				2C6EFED31D8B887C00044342 /* kindergartenappSwfitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C6EFEB31D8B887B00044342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3D58AF1DD7435E0001E78C /* FZSEJT.ttf in Resources */,
+				2C6EFEC31D8B887B00044342 /* LaunchScreen.storyboard in Resources */,
+				2C6EFEC01D8B887B00044342 /* Assets.xcassets in Resources */,
+				2C6EFF0A1D8D53D600044342 /* loading.gif in Resources */,
+				680FB7B41D910DC80093DA38 /* UsrNameVC.xib in Resources */,
+				2C6EFEBE1D8B887B00044342 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EFEC71D8B887B00044342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EFED21D8B887C00044342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79CAE5614391B0ABABA304C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kindergartenappSwfit/Pods-kindergartenappSwfit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98ACD53D1AB9BCB44C522409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD675E5E6714F7438208D991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kindergartenappSwfit/Pods-kindergartenappSwfit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6EFEB11D8B887B00044342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EFEF41D8BED7100044342 /* BaseFunc.swift in Sources */,
+				2C6E00531D901BB200044342 /* FirstVC.swift in Sources */,
+				2CCEC9D91D97F82D004FCFCB /* UIImage+Gif.swift in Sources */,
+				2C6EFEFB1D8C043A00044342 /* ParentInfo.swift in Sources */,
+				2C6EFEBB1D8B887B00044342 /* ViewController.swift in Sources */,
+				2C3D58B11DD8A6BA0001E78C /* StayTunesVC.swift in Sources */,
+				2C6EFEFD1D8C07A700044342 /* Baby.swift in Sources */,
+				2C6EFEFF1D8CCC4000044342 /* TeacherInfo.swift in Sources */,
+				2C6EFEB91D8B887B00044342 /* AppDelegate.swift in Sources */,
+				2C6EFEF81D8BF85E00044342 /* UserInfo.swift in Sources */,
+				2C6EFF111D8D6F2600044342 /* ZLCGuidePageView.m in Sources */,
+				680FB7B31D910DC80093DA38 /* UsrNameVC.swift in Sources */,
+				2C3D58AD1DD6E72F0001E78C /* CycleScrollView.swift in Sources */,
+				2C6E005C1D901D1000044342 /* GlobalConst.swift in Sources */,
+				2C6EFF011D8CCC6000044342 /* Class_School.swift in Sources */,
+				2C6EFEF61D8BED9400044342 /* BaseVC.swift in Sources */,
+				2C3D58B31DD8A8B50001E78C /* WebBrowserTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EFEC51D8B887B00044342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EFECE1D8B887B00044342 /* kindergartenappSwfitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EFED01D8B887C00044342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6EFED91D8B887C00044342 /* kindergartenappSwfitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C6EFECB1D8B887B00044342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6EFEB41D8B887B00044342 /* kindergartenappSwfit */;
+			targetProxy = 2C6EFECA1D8B887B00044342 /* PBXContainerItemProxy */;
+		};
+		2C6EFED61D8B887C00044342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6EFEB41D8B887B00044342 /* kindergartenappSwfit */;
+			targetProxy = 2C6EFED51D8B887C00044342 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C6EFEBC1D8B887B00044342 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6EFEBD1D8B887B00044342 /* Base */,
+				2C6EFF0B1D8D5EB900044342 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C6EFEC11D8B887B00044342 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6EFEC21D8B887B00044342 /* Base */,
+				2C6EFF0C1D8D5EB900044342 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C6EFEDB1D8B887C00044342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C6EFEDC1D8B887C00044342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C6EFEDE1D8B887C00044342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7708C02C123187F7654CA0EE /* Pods-kindergartenappSwfit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = kindergartenappSwfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsc.kindergartenappSwfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kindergartenappSwfit/kindergartenappSwfit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C6EFEDF1D8B887C00044342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4F4541BF2D62315E3B22C2 /* Pods-kindergartenappSwfit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = kindergartenappSwfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsc.kindergartenappSwfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kindergartenappSwfit/kindergartenappSwfit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2C6EFEE11D8B887C00044342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kindergartenappSwfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsc.kindergartenappSwfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindergartenappSwfit.app/kindergartenappSwfit";
+			};
+			name = Debug;
+		};
+		2C6EFEE21D8B887C00044342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kindergartenappSwfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsc.kindergartenappSwfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kindergartenappSwfit.app/kindergartenappSwfit";
+			};
+			name = Release;
+		};
+		2C6EFEE41D8B887C00044342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kindergartenappSwfitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsc.kindergartenappSwfitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kindergartenappSwfit;
+			};
+			name = Debug;
+		};
+		2C6EFEE51D8B887C00044342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kindergartenappSwfitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsc.kindergartenappSwfitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kindergartenappSwfit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C6EFEB01D8B887B00044342 /* Build configuration list for PBXProject "kindergartenappSwfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EFEDB1D8B887C00044342 /* Debug */,
+				2C6EFEDC1D8B887C00044342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6EFEDD1D8B887C00044342 /* Build configuration list for PBXNativeTarget "kindergartenappSwfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EFEDE1D8B887C00044342 /* Debug */,
+				2C6EFEDF1D8B887C00044342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6EFEE01D8B887C00044342 /* Build configuration list for PBXNativeTarget "kindergartenappSwfitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EFEE11D8B887C00044342 /* Debug */,
+				2C6EFEE21D8B887C00044342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6EFEE31D8B887C00044342 /* Build configuration list for PBXNativeTarget "kindergartenappSwfitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6EFEE41D8B887C00044342 /* Debug */,
+				2C6EFEE51D8B887C00044342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C6EFEAD1D8B887B00044342 /* Project object */;
+}
